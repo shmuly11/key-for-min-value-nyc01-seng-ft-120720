@@ -8,5 +8,6 @@ name_hash.each do |key, value|
     lowest = value
     pop = key 
   end
+end
   pop
 end
