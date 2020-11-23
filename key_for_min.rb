@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   if name_hash == {}
-    return false
+    return nil 
   else
 lowest = 1000
 pop = ""
