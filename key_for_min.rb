@@ -2,15 +2,17 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
+  if name_hash = {}
+    return false
+  else
 lowest = 1000
 pop = ""
 name_hash.each do |key, value|
   if value < lowest
     lowest = value
     pop = key 
-    elsif name_hash == {}
-    pop = false
   end
 end
   pop
+end
 end
