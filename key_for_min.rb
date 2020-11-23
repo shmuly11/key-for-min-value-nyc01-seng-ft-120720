@@ -9,7 +9,7 @@ name_hash.each do |key, value|
     lowest = value
     pop = key 
     elsif value == ""
-    pop = nil 
+    pop = false
   end
 end
   pop
